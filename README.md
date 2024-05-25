@@ -1,6 +1,3 @@
-#  AI Project on LENR.
+#  LENR.ai
 
-Predictive Analysis project by
- - Gokul
- - Rishav
- - Mihir
+An LLM-based Recommendation System for Research Papers on Low Energy Nuclear Reactions (LENR).
