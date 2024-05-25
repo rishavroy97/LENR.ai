@@ -72,12 +72,12 @@ export class AppComponent {
           return data.prompt;
         })).subscribe({
           next: (prepared_prompt: string) => {
-            this.getStream(prepared_prompt);
+            // this.getStream(prepared_prompt);
             /**
              * This is a debug code line
              * Uncomment it to check the output of the DB Server
              */
-            // this.streamText = this.utils.processStreamData(prepared_prompt);
+            this.streamText = this.utils.processStreamData(prepared_prompt);
           }, error: (err) => {
             console.error("Error from DB call", err);
             this.isFetchingDocs = false;

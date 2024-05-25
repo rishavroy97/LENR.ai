@@ -3,3 +3,4 @@ src/faiss_db
 faiss_db
 chroma_db
 src/.ipynb_checkpoints
+.idea/
